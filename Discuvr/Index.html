@@ -1,54 +1,128 @@
 <HTML>
 
 <HEAD>
-
+<!--add javascript-->
+    
+<!---<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">-->
 <TITLE>Discuvr</TITLE>
 
 </HEAD>
 
-<BODY BGCOLOR="FFFFFF">
+<body>
 
 <link rel="stylesheet" type="text/css" href="style.css">
-<CENTER><img src="elements/discuvr.svg" ALIGN="BOTTOM"> </CENTER>
-
-<HR>
-
-    
-    
-    <link rel="stylesheet" type="text/css" href="mine.css">
-<div id="navbar">
-<h5><img src="elements/icons/bookmark.svg" height="48px" width="48px">Favourites</h5>
-<h5><img src="elements/icons/music.svg" height="48px" width="48px">Music</h5> 
-<h5><img src="elements/icons/library.svg" height="48px" width="48px">Art</h5> 
-<h5><img src="elements/icons/bookmark.svg" height="48px" width="48px">News</h5> 
-<h5><img src="elements/icons/globe.svg" height="48px" width="48px">General</h5> 
-</div>    
-    
-
-    
-    
-</div>
-<a href="http://somegreatsite.com">Link Name</a>
-
-is a link to another nifty site
-
-<H1>Discuvr</H1>
-
+<div id="banner">
+<CENTER><img src="elements/graphics/general/discuvr.svg" ALIGN="BOTTOM"></CENTER>
 <H2>Content Discovery Made Easy</H2>
-
-Send me mail at <a href="mailto:support@yourcompany.com">
-
+    </div>
     
-support@yourcompany.com</a>.
+<div id="content">
+<div id="navbar">
+<HR>
 
-<P> This is a new paragraph!
+<figure class="snip1585" onclick ="favourites()">
+    <img src="elements/graphics/icons/bookmark.svg" height="100px" width="100px"/>
+<figcaption>
+ <h3>Favourites<span>your bookmarks</span></h3>
+ </figcaption>
+ <a href="#"></a>
+    </figure> </a>
+    
+<figure class="snip1585" onclick ="music()">
+    <img src="elements/graphics/icons/music.svg" height="100px" width="100px"/>
+<figcaption>
+ <h3>Music<span>From Spotify</span></h3>
+ </figcaption>
+ <a href="#"></a>
+</figure>
+    
+<figure class="snip1585">
+    <img src="elements/graphics/icons/gallery.svg" height="100px" width="100px"/>
+<figcaption>
+ <h3>Wallpapers<span>Unsplash</span></h3>
+ </figcaption>
+ <a href="#"></a>
+</figure>
+    
+    
+<figure class="snip1585">
+    <img src="elements/graphics/icons/library.svg" height="100px" width="100px"/>
+<figcaption>
+ <h3>Art<span>Classic Paintings</span></h3>
+ </figcaption>
+ <a href="#"></a>
+</figure>
+    
+    
+<figure class="snip1585">
+    <img src="elements/graphics/icons/globe.svg" height="100px" width="100px"/>
+<figcaption>
+ <h3>General<span>Random Website</span></h3>
+ </figcaption>
+ <a href="#"></a>
+</figure>
+    
+    
+<figure class="snip1585">
+    <img src="elements/graphics/icons/steam.svg" height="100px" width="100px"/>
+<figcaption>
+ <h3>Games<span>From Steam</span></h3>
+ </figcaption>
+ <a href="#"></a>
+</figure>
+    
+<figure class="snip1585" onclick="imdb">
+    <img src="elements/graphics/icons/clapperboard.svg" height="100px" width="100px"/>
+<figcaption>
+ <h3>Movies<span>From IMDB</span></h3>
+ </figcaption>
+ <a href="#"></a>
+</figure>
+</div>    
 
-<P> <B>This is a new paragraph!</B>
 
-<BR> <B><I>This is a new sentence without a paragraph break, in bold italics.</I></B>
+<div id="main">
+<figure class="snip1533">
+  <figcaption>
+      <h3>What is It?</h3>
+    <blockquote>
+      <p>Discuvr is a content discovery platfor that serves you random content from all across the web to take the complication out of finding new content.</p>
+    </blockquote>
+  </figcaption>
+</figure> 
+</div>
+
 
 <HR>
 
-</BODY>
+<div id="credits">
+    <footer>
+<H5>Created by:</H5>
+<ul>
+  <li><a href="#home">Brian</a></li>
+  <li><a href="#news">Danielius</a></li>
+  <li><a href="#contact">Kamil</a></li>
+  <li><a href="#about">Robert</a></li>
+  <li><a href="#about">Stephen</a></li>
+</ul>
+
+    </footer>
+    </div>  
+</HR>
+<li> </li>
+    
+    
+    
+    
+<!-- Here are the scripts. they will be changed to whatever you name your files-->
+<script src="imdb.js"></script>
+<script src="myScript2.js"></script>
+<script src="imdb.js"></script>
+<script src="myScript2.js"></script>
+<script src="myScript2.js"></script>
+
+    </div>
+</body>
 
 </HTML>
