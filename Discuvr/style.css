@@ -7,24 +7,24 @@ body {
 
 
 #navbar{
-    
+
     margin: auto;
     text-align: center;
     background-position: center center;
     background-size: cover;
-    
+
 }
 
 
 
 
 #banner {
-    
-    
+
+
     background-color: azure;
 }
 #credits li {
-    display: flex;
+    display: inline;
     justify-content: space-between;
 }
 
@@ -44,7 +44,7 @@ h2 {
 }
 
 footer {
-    
+
     text-align: center;
 }
 
@@ -55,20 +55,18 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: grey;
-    
+
+
 }
 
-li {
-    float: left;
-}
 
 li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    
+
 }
 
 li a:hover {
