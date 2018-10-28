@@ -3,22 +3,22 @@ body {
 }
 
 
-
-
-
 #navbar{
 
     margin: auto;
     text-align: center;
     background-position: center center;
+<<<<<<< HEAD
     background-size: cover;
 
+=======
+    background-size: cover;   
+>>>>>>> final revision
 }
 
 
-
-
 #banner {
+<<<<<<< HEAD
 
 
     background-color: azure;
@@ -26,6 +26,11 @@ body {
 #credits li {
     display: inline;
     justify-content: space-between;
+=======
+   /*background-image: url(elements/graphics/general/banner.jpg);*/
+    background-size: auto;
+
+>>>>>>> final revision
 }
 
 

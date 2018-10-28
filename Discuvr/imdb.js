@@ -19,5 +19,6 @@ function redirect()
 	var idString = id.toString();
 	if (idString.length == 6)
 		idString = '0' + id;
-	window.location.replace("https://www.imdb.com/title/" + "tt" + idString);
+	//window.location.replace("https://www.imdb.com/title/" + "tt" + idString);
+	window.open("https://www.imdb.com/title/" + "tt" + idString, '_blank');
 }
