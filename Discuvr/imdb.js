@@ -16,5 +16,4 @@ var id = JSON.stringify(json_obj[idIndex].tconst);
 var idString = id.toString();
 if (idString.length == 6)
 	idString = '0' + id;
-document.getElementById("output").innerHTML = idString;
 window.location.replace("https://www.imdb.com/title/" + "tt" + idString);
